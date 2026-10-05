@@ -47,12 +47,11 @@ function mob:printStats()
     print ("defense:    " .. progressBar(self.defense))
     print ("life:       " .. progressBar(self.life))
     print ("inteligence:" .. progressBar(self.inteligence))
-    print ()
     print ("================================================")
 end
 
 local mob1 = mob.new("Slime", "A small, gelatinous creature that bounces around.", true, 5, "Squish!", 3, 2, 4, 6, 1)
-local mob2 = mob.new("wither", "A skeletal creature that can shoot projectiles.", true, 7, "Rattle!", 5, 3, 6, 8, 4)
+local mob2 = mob.new("Wither", "A skeletal creature that can shoot projectiles.", true, 7, "Rattle!", 5, 3, 6, 8, 4)
 local mob3 = mob.new("Enderman", "A tall, dark creature that can teleport.", true, 6, "Screech!", 4, 2, 7, 5, 5)
 local mob4 = mob.new("Zombie", "A reanimated corpse that shambles towards its prey.", true, 4, "Groan!", 2, 1, 3, 7, 1)
 local mob5 = mob.new("Skeleton", "A bony creature that wields a bow and arrow.", true, 5, "Clatter!", 3, 2, 5, 6, 2)
